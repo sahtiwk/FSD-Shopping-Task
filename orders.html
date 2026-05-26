@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+<body>
+
+    <h1>Order Details</h1>
+
+    <div class="container">
+
+        <!-- Order Information -->
+        <h2>Order Info</h2>
+
+        <input type="text" id="order-id" placeholder="Enter Order ID">
+
+        <input type="text" id="customer-name" placeholder="Enter Customer Name">
+
+        <input type="date" id="order-date">
+
+        <select id="order-status">
+            <option value="">Select Status</option>
+            <option value="Confirmed">Confirmed</option>
+            <option value="Processing">Processing</option>
+            <option value="Shipped">Shipped</option>
+            <option value="Delivered">Delivered</option>
+            <option value="Returned">Returned</option>
+        </select>
+
+        <hr>
+
+        <!-- Item Information -->
+        <h2>Add Items</h2>
+
+        <datalist id="item-list">
+            <option value="A-100">Wireless Mouse</option>
+            <option value="B-210">USB-C Cable</option>
+            <option value="C-330">Mechanical Keyboard</option>
+            <option value="D-410">Desk Lamp</option>
+            <option value="E-505">Water Bottle</option>
+            <option value="F-600">Noise-Cancelling Headphones</option>
+            <option value="G-710">Yoga Mat</option>
+            <option value="H-820">Fitness Tracker</option>
+        </datalist>
+
+        <input 
+            type="text" 
+            id="item-sku" 
+            list="item-list"
+            placeholder="Enter Item SKU"
+        >
+
+        <input 
+            type="text" 
+            id="item-name" 
+            placeholder="Enter Item Name"
+        >
+
+        <input 
+            type="number" 
+            id="item-qty" 
+            placeholder="Enter Quantity"
+        >
+
+        <input 
+            type="number" 
+            id="item-price" 
+            step="0.01"
+            placeholder="Enter Unit Price"
+        >
+
+        <button id="add-item">Add Item</button>
+
+        <hr>
+
+        <!-- Order Summary -->
+        <h2>Order Summary</h2>
+
+        <label>Subtotal:</label>
+        <input type="number" id="subtotal" step="0.01">
+
+        <br><br>
+
+        <label>Tax:</label>
+        <input type="number" id="tax" step="0.01">
+
+        <br><br>
+
+        <label>Shipping:</label>
+        <input type="number" id="shipping" step="0.01">
+
+        <br><br>
+
+        <label>Total:</label>
+        <input type="number" id="total" step="0.01">
+
+        <hr>
+
+        <!-- Item Display Area -->
+        <h2>Items Added</h2>
+
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>SKU</th>
+                    <th>Item Name</th>
+                    <th>Qty</th>
+                    <th>Unit Price</th>
+                </tr>
+            </thead>
+
+            <tbody id="items-container">
+                <!-- Items will appear here -->
+            </tbody>
+        </table>
+
+        <br>
+
+        <button id="submit-order">Submit Order</button>
+
+    </div>
+
+</body>
+</html>
