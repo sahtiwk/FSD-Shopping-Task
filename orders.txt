@@ -1,0 +1,58 @@
+
+OrderID: 1001
+Customer: Alice Johnson
+Date: 2026-05-10
+Items:
+	- SKU: A-100  Name: Wireless Mouse        Qty: 2  UnitPrice: 19.99
+	- SKU: B-210  Name: USB-C Cable           Qty: 1  UnitPrice: 9.50
+Subtotal: 49.48
+Tax: 3.96
+Shipping: 5.00
+Total: 58.44
+Status: Shipped
+
+OrderID: 1002
+Customer: Rahul Mehta
+Date: 2026-05-12
+Items:
+	- SKU: C-330  Name: Mechanical Keyboard   Qty: 1  UnitPrice: 89.99
+	- SKU: D-410  Name: Desk Lamp             Qty: 1  UnitPrice: 24.75
+Subtotal: 114.74
+Tax: 9.18
+Shipping: 0.00
+Total: 123.92
+Status: Processing
+
+OrderID: 1003
+Customer: Mei Ling
+Date: 2026-05-13
+Items:
+	- SKU: E-505  Name: Water Bottle          Qty: 3  UnitPrice: 12.00
+Subtotal: 36.00
+Tax: 2.88
+Shipping: 4.99
+Total: 43.87
+Status: Delivered
+
+OrderID: 1004
+Customer: Carlos Ramirez
+Date: 2026-05-14
+Items:
+	- SKU: F-600  Name: Noise-Cancelling Headphones  Qty: 1  UnitPrice: 199.99
+Subtotal: 199.99
+Tax: 16.00
+Shipping: 9.99
+Total: 225.98
+Status: Returned
+
+OrderID: 1005
+Customer: Emma Thompson
+Date: 2026-05-15
+Items:
+	- SKU: G-710  Name: Yoga Mat              Qty: 1  UnitPrice: 29.95
+	- SKU: H-820  Name: Fitness Tracker       Qty: 1  UnitPrice: 129.99
+Subtotal: 159.94
+Tax: 12.80
+Shipping: 6.00
+Total: 178.74
+Status: Confirmed
