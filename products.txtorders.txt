@@ -1,0 +1,11 @@
+Product ID,Product Name,Category,Price,Stock,Description
+P001,Wireless Headphones,Electronics,79.99,45,Noise-cancelling wireless headphones with 30-hour battery life
+P002,Coffee Maker,Appliances,49.99,32,Programmable coffee maker with automatic shut-off
+P003,Running Shoes,Sports,120.00,28,Professional running shoes with cushioned sole
+P004,Desk Lamp,Furniture,34.99,55,LED desk lamp with adjustable brightness
+P005,Yoga Mat,Sports,25.99,60,Non-slip yoga mat with carrying strap
+P006,Bluetooth Speaker,Electronics,89.99,38,Portable waterproof Bluetooth speaker
+P007,Microwave Oven,Appliances,199.99,15,Digital microwave oven with convection mode
+P008,Winter Jacket,Clothing,159.99,22,Warm winter jacket with water-resistant coating
+P009,Phone Case,Accessories,15.99,120,Protective phone case with anti-scratch design
+P010,Desk Chair,Furniture,299.99,12,Ergonomic office chair with lumbar support
