@@ -8,4 +8,4 @@ P006,Bluetooth Speaker,Electronics,89.99,38,Portable waterproof Bluetooth speake
 P007,Microwave Oven,Appliances,199.99,15,Digital microwave oven with convection mode
 P008,Winter Jacket,Clothing,159.99,22,Warm winter jacket with water-resistant coating
 P009,Phone Case,Accessories,15.99,120,Protective phone case with anti-scratch design
-P010,Desk Chair,Furniture,299.99,12,Ergonomic office chair with lumbar support
+P010,Desk Chair,Furniture,299.99,12,Ergonomic office chair with lumbar supportgit 
