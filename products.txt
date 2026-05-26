@@ -14,3 +14,4 @@ P012,Air Fryer,Appliances,129.99,18,Oil-free air fryer with digital temperature 
 P013,Backpack,Accessories,39.99,70,Water-resistant laptop backpack with multiple compartments
 P014,Bedside Table,Furniture,89.99,20,Wooden bedside table with storage drawer
 P015,Sports T-Shirt,Clothing,29.99,90,Breathable moisture-wicking sports t-shirt
+P017,Dummy Item,Misc,0.00,0,Placeholder product entry not intended for actual catalog
